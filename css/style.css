@@ -1,0 +1,309 @@
+/*header start*/
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+	background-color: #121B2A;
+	padding-top: 10px;
+}
+.wrapper {
+	/*border: 1px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 15%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 70%;
+	/*border: 1px solid white;*/
+	float: right;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 30px;
+	/*padding-top: 30px;*/
+}
+
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	padding-right: 70px;
+
+}
+.menu ul li:last-child{
+	padding-right: 0;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding:5px;
+	display: block;
+	color: white;
+	transition: 0.5s;
+
+}
+.menu ul li a:hover{
+	color: #0176BC;
+
+}
+/*header end*/
+/*banner start*/
+.banner {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	/*min-height: 300px;*/
+}
+.banner-content {
+	margin-top: 300px;
+	margin-bottom: 100px;
+	width: 45%;
+	font-family: sans-serif;
+}
+.banner-content p:first-child{
+	color: white;
+	font-size: 35px;
+
+}
+.banner-content h1{
+	color: #0776B3;
+	font-size: 45px;
+
+}
+.banner-content p:nth-last-child(2){
+	color: white;
+	font-size: 18px;
+	line-height: 1.5;
+
+}
+.banner-content button{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #5A5A5A;
+	font-size: 25px;
+	margin-top: 20px;
+
+}
+.banner-content button span{
+
+}
+/*banner end*/
+/*service start*/
+.service {
+	background-color: #121B2C;
+	padding: 50px 0;
+}
+.single_service {
+	width: 30%;
+	float: left;
+	padding: 10px 20px;
+	border-right: 1px solid white;
+	margin-left: 5px;
+}
+.single_service:last-child {
+	border-right: 0;
+}
+
+.title {
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.icon {
+	width: 20%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+
+.icon_content {
+	width: 65%;
+	float: left;
+	margin-top: 7px;
+}
+.icon_content h1{
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+.icon_content h2{
+	color: #0273B7;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+.content {
+}
+.content p{
+	color: white;
+	font-family: sans-serif;
+	line-height: 1.5;
+
+}
+/*service end*/
+/*info start*/
+.info{
+	font-family: sans-serif;
+	background-color: #040811;
+	overflow: hidden;
+
+}
+.contact_info {
+    width: 18%;
+    color: white;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 133px;
+    margin-right: 33px;
+}
+
+.name {
+	overflow: hidden;
+	margin-bottom: 9px;
+}
+
+.name h1{
+	float: left;
+	padding-right: 5px;
+
+}
+.name h2{
+	float: left;
+	color: #0273B7;
+
+}
+
+.info_content {
+
+}
+.info_content p{
+	font-size: 14px;
+	line-height: 1.6;
+	font-weight: 400;
+
+}
+.info_content p:first-child{
+	
+}
+.info_content p:last-child {
+	
+}
+
+.testimonial {
+    color: white;
+    width: 22%;
+    float: left;
+    margin: 48px 61px 56px 47px;
+}
+
+.customer {
+	background-color: #0C1019;
+	
+}
+.cust_title{
+	overflow: hidden;
+}
+.cust_title h1{
+	float: left;
+    margin-right: 5px;
+
+}
+.cust_title h2{
+	color: #0273B7;
+
+}
+.cust_test{
+	margin: 14px 0;
+    font-size: 14px;
+
+
+}
+
+.cust_website {
+	font-size: 15px;
+}
+
+.cust_website h3{
+	font-weight: 700;
+}
+.cust_website p{
+	font-weight: 400;
+}
+
+.mobile {
+    width: 9%;
+    float: left;
+    margin: 33px 53px 28px 33px;
+}
+.mobile img{
+	width: 100%;
+}
+
+.apps {
+    width: 13%;
+    float: left;
+    margin: 38px 10px 3px 10px;
+}
+
+.text {
+	/*color: white;*/
+}
+.text h1{
+    color: white;
+    margin-bottom: 11px;
+}
+.text h2{
+	    color: #0273B7;
+    font-size: 27px;
+    margin-bottom: 17px;
+}
+
+.logos {
+	width: 100%;
+
+}
+.logos img{
+	width: 100%;
+}
+/*info end*/
+
+/*footer start*/
+.footer{
+	
+	width: 100%;
+	padding: 9px 0px;
+	background-color: #121B2C;
+	text-align: center;
+
+}
+.footer p{
+	
+	color: #FFFFFF;
+}
+.footer p a{
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+/*footer end*/
